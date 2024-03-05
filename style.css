@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-.{
+body {
     background: #F3F5FC;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
@@ -11,7 +11,7 @@
 .logoAlura {
     margin-left: 10px;
     padding-top: 10px;
-    width: 2%;
+    width: 5%;
 }
 
 main {
@@ -51,4 +51,42 @@ main {
 .botoes {
     display: flex;
     margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacao {
+    color: #495057;
+    font-size: 18px;
 }
