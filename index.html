@@ -8,28 +8,42 @@
 </head>
 <body>
     <header>
-        <img class="logoAlura" src="/Assets/Logo.png" alt="Logo da Alura">
+        <img class="logoAlura" src="Assets/Logo.png" alt="Logo da Alura">
     </header>
     <main>
-        <section>
-            <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
-            <div class="informacao">
+        <section class="section1">
+            <div class="container-texto">
+                <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+            </div>
+            <div class="aviso">
+                <img class="aviso-img" src="Assets/bi_exclamation-circle-fill.png" alt="alerta">
                 <h6>Digite apenas letras minusculas e sem acento.</h6>
             </div>
-    
-            <div class="botoes">
+            <div class="container-botoes">
                 <button class="btn-encriptar">Criptografar</button>
                 <button class="btn-desencriptar">Descriptografar</button>
             </div>
         </section>
-        <section>
-            <textarea class="mensagem" cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
+        <section class="section2">
+            <div class="container-boneto">
+                <img src="Assets/Boneco.png" alt="Boneco">
+            </div>
+            <div class="container-paragrafo">
+                <h3>Nenhuma mensagem <br> Encontrada</h3>
+                <p>Digite a mensagem que deseja encriptar ou <br> desencriptar.</p>
+            </div>
+            <div class="container-copiar">
+                <button class="btn-copiar">Copiar</button>
+            </div>
+            <div class="container-resultado">
+                <p class="texto-resultado"></p>
+            </div>
         </section>
     </main>
     <footer>
         <h6></h6>
     </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
